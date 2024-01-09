@@ -94,7 +94,7 @@ const markup = images.map(
       alt="${description}"
     />
   </a>
-</li>;`
+</li>`
 );
 
 container.insertAdjacentHTML("beforeend", markup.join(""));
